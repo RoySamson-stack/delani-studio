@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $(".hide1").hide();
+  $(".show1").click(function(){
+    $("show1").hide();
+    $(".hide1").toggle();
+  });
+  $(".hide1").hide();
+  $(".show1").click(function(){
+    $("show1").hide();
+    $(".hide1").toggle();
+  });
+  $(".hide1").hide();
+  $(".show1").click(function(){
+    $("show1").hide();
+    $(".hide1").toggle();
+  })
+})
