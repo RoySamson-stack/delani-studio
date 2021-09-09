@@ -45,6 +45,7 @@
   background-image: url("img/c_image.jpg");
   text-align: center;
   color: #fff;
+  padding: 50px;
 }.contact_form{
 }#name, #email{
   width: 40%;
@@ -61,10 +62,9 @@ border-radius: 5px
 input, textarea{
   background-color: transparent;
   border: 2px solid white;
-
 }
-input, textarea:hover{
-  border: 2px solid white;
+input:hover, textarea:hover{
+  border: 2px solid lightskyblue
 
 }::placeholder{
   color: white;
