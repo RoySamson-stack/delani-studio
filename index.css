@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-image: url("./img/h_img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.logo_delani{
+  margin-top: 19em;
+}.mouse_icon{
+  padding-top: 22em
+}
