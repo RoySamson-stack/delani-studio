@@ -31,4 +31,9 @@
   padding-top: 150px;
   padding-bottom: 150px;
   color: white;
+}.work_section{
+  text-align: center;
+  padding-top: 50px;
+}.work_header{
+  padding-bottom: 50px;
 }
