@@ -36,4 +36,9 @@
   padding-top: 50px;
 }.work_header{
   padding-bottom: 50px;
+}.portfolio_section{
+  text-align: center;
+}.portfolio_section img{
+  width: 100%;
+  padding-bottom: 20px;
 }
