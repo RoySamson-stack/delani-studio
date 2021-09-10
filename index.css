@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: none;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   color: white;
 }
@@ -71,4 +71,6 @@ input:hover, textarea:hover{
 
 }::placeholder{
   color: white;
+}.hide1, .hide2, .hide3{
+  display: none;
 }
