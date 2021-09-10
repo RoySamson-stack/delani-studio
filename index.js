@@ -10,6 +10,8 @@ $(document).ready(function(){
   $("#hidden_show3").click(function(){
     $(".show3").toggle();
     $(".hide3").toggle();
+  });
+  $("").hover(function(){
+    $("").css("background-color", "white");
   })
-  
 })
