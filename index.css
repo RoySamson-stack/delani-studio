@@ -73,4 +73,6 @@ input:hover, textarea:hover{
   color: white;
 }.hide1, .hide2, .hide3{
   display: none;
+}.hidden{
+  display: none;
 }

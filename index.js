@@ -11,7 +11,9 @@ $(document).ready(function(){
     $(".show3").toggle();
     $(".hide3").toggle();
   });
-  $("").hover(function(){
-    $("").css("background-color", "white");
+  $("#portfolio-img").hover(function(){
+    $("#portfolio-img").css("background-color", "white");
+    $("#work1").toggle();
+    $("#hidden1").toggle();
   })
 })
