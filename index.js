@@ -12,48 +12,39 @@ $(document).ready(function(){
     $(".hide3").toggle();
   });
   $("#portfolio-img").hover(function(){
-    $("#portfolio-img").css("background-color", "white");
-    $("#work1").toggle();
-    $("#hidden1").toggle();
+    $("#work1").css("opacity", "0.5");
+    $("#hidden1").show();
   });
   $("#firebase-img").hover(function(){
-    $("#firebase-img").css("background-color", "white");
-    $("#work2").toggle();
+    $("#work2").css("opacity", "0.5",);
     $("#hidden2").toggle();
   });
   $("#security-img").hover(function(){
-    $("#security-img").css("background-color", "white");
-    $("#work3").toggle();
+    $("#work3").css("opacity", "0.5");
     $("#hidden3").toggle();
   });
   $("#app-img").hover(function(){
-    $("#app-img").css("background-color", "white");
-    $("#work4").toggle();
+    $("#work4").css("opacity", "0.5");
     $("#hidden4").toggle();
   });
   $("#admin-img").hover(function(){
-    $("#admin-img").css("background-color", "white");
-    $("#work5").toggle();
+    $("#work5").css("opacity", "0.5");
     $("#hidden5").toggle();
   });
   $("#blog-img").hover(function(){
-    $("#blog-img").css("background-color", "white");
-    $("#work6").toggle();
+    $("#work6").css("opacity", "0.5");
     $("#hidden6").toggle();
   });
   $("#bar-img").hover(function(){
-    $("#bar-img").css("background-color", "white");
-    $("#work7").toggle();
+    $("#work7").css("opacity", "0.5");
     $("#hidden7").toggle();
   });
   $("#resturant-img").hover(function(){
-    $("#resturant-img").css("background-color", "white");
-    $("#work8").toggle();
+    $("#work8").css("opacity", "0.5");
     $("#hidden8").toggle();
   });
   $("#portfolio-img").hover(function(){
-    $("#portfolio-img").css("background-color", "white");
-    $("#work1").toggle();
+    $("#work1").css("opacity", "0.5");
     $("#hidden1").toggle();
   })
 })
