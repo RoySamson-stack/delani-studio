@@ -80,6 +80,7 @@ input, textarea{
   top:30%;
   left: 30%;
   display: none;
+  font-weight: bold;
 }#hidden1.active{
   background: white;
 }

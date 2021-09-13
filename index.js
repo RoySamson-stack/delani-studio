@@ -61,23 +61,19 @@ $(document).ready(function(){
     $("#hidden7").hide();
   });;
   $("#resturant-img").mouseenter(function(){
-    $("#work8").css("opacity", "0.5");
-    $("#hidden8").toggle();
+    $("#work8").css("background", "0.5");
+    $("#hidden8").show();
   }).mouseleave(function(){
     $("#work8").css("opacity", "0.8");
     $("#hidden8").hide();
-  }); 
-
-  $('#mc-embedded-subscribe').click(function(){go(50)});
-  $('#ok').click(function(){go(500)});
-
-//setTimeout(function(){go(50)},700);
-//setTimeout(function(){go(500)},2000);
-
-function go(nr) {
-  $('.message').toggleClass('comein');
-  $('.check').toggleClass('scaledown');
-  $('#go').fadeToggle(nr);
- 
-}
+  });   
 })
+let name = document.getElementsById("FNAME");
+let email = document.getElementsById("EMAIL");
+let message = document.getElementsById("MESSAGE");
+
+function response(name, email, message){
+
+  let result = window.confirm('Thank you ' + {name} + "for contacting us. We will get back to you as soon as possible");
+
+}
