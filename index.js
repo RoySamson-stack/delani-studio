@@ -67,20 +67,17 @@ $(document).ready(function(){
     $("#work8").css("opacity", "0.8");
     $("#hidden8").hide();
   }); 
-  var target = document.getElementById('mce-success-response');
 
-// create an observer instance
-var observer = new MutationObserver(function(mutations) {
-  mutations.forEach(function(mutation) {
-    if (target.innerHTML === "Thank you for contact us") {
-      target.innerHTML = "Check your email!";
-    }
-  });
-});
+  $('#mc-embedded-subscribe').click(function(){go(50)});
+  $('#ok').click(function(){go(500)});
 
-// configuration of the observer:
-var config = { attributes: true, childList: true, characterData: true };
+//setTimeout(function(){go(50)},700);
+//setTimeout(function(){go(500)},2000);
 
-// pass in the target node, as well as the observer options
-observer.observe(target, config);
+function go(nr) {
+  $('.message').toggleClass('comein');
+  $('.check').toggleClass('scaledown');
+  $('#go').fadeToggle(nr);
+ 
+}
 })
