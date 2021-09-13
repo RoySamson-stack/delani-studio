@@ -5,7 +5,8 @@ Theh website has a showcase for the different projects done and the description.
 #### Author: Roy Samson
 
 ## Description
-View live site:https://roysamson-stack.github.io/
+View live site:https://roysamson-stack.github.io/delani-studio/
+
 
 This is a web a portfolio to showcase different projects that are done and the vision of the comapony to provide different services.
 
